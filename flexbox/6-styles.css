@@ -220,15 +220,17 @@
   /*.navbar-menu {
     float: right;
   }*/
-  .nav-item + .nav-item {
-    margin: var(--nav-item-margin);
-  }
+  
   .nav {
     display: flex;
     margin: 0;
     padding: 0;
     list-style: none;
     text-align: center;
+  }
+
+  .nav .nav-item + .nav-item {
+    margin: var(--nav-item-margin);
   }
   
   .nav .nav-item {
